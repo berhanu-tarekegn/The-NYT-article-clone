@@ -8,6 +8,7 @@
   }
 
   .nav {
+      position: sticky;
       border-bottom: 1px solid #e2e2e2;
   }
 
@@ -65,6 +66,13 @@
     max-width: 80%;
     padding: 12px 20%;
     text-decoration: underline;
+}
+
+.more-article {
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 12px;
 }
 
 .article-detail {
@@ -200,6 +208,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
+    padding: 24px 0;
 }
 
 .more-cat-item {
@@ -220,3 +229,19 @@
     font-size: 1em;
 }
 
+footer {
+    padding-bottom: 24px;
+    width: 80%;
+    margin:auto;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-around;
+}
+
+.brand-item {
+    font-size: 0.6em;
+    color: #666;
+    font-family: nyt-franklin,helvetica,arial,sans-serif;
+}
