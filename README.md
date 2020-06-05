@@ -1,19 +1,21 @@
 # Intuit Clone.
 
-> This is a clone of the Intuit registration page.
+> This is a clone of the The New York Times news page.
 
-![screenshot](./images/intuit.png)
+![screenshot](./images/newyorktimes.png)
 
-This project is a replica of the Intuit registration page. It has a form that allows users to enter their respective credentials and submit them to the website backend.
+This project is a replica of the the The New York Times news page. It has currnet news with different supplimental docs like image, video. Has popular and related news sections.
 
 ## Built With
 
 - HTML5,
+- FLEX,
+- GRID,
 - CSS3.
 
 ## Live Demo
 
-To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/Intuit-clone/develop/index.html)
+To see a preview of the actual project, check out the [Live Demo Link](https://rawcdn.githack.com/berhanu-tarekegn/The-NYT-article-clone/develop/index.html)
 
 
 ## Getting Started
@@ -30,12 +32,6 @@ To run the project smoothly, you must have the following installed on your machi
 You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/Intuit-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
 
 ## Authors
-
-👤 **Kelyn Paul Njeri**
-
-- Github: [@KelynPNjeri](https://github.com/KelynPNjeri)
-- Twitter: [@twitterhandle](https://twitter.com/KelynNjeri)
-- Linkedin: [Kelyn Paul](https://linkedin.com/kelyn-paul)
 
 👤 **Berhanu Tarekegn**
 
@@ -56,6 +52,7 @@ Give a ⭐️ if you like this project!
 
 - W3Schools
 - CSS Tricks
+- Team-124-the-miniskins 
 
 ## 📝 License
 
