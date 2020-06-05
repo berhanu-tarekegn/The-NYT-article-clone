@@ -2,7 +2,7 @@
 
 > This is a clone of the The New York Times news page.
 
-![screenshot](./images/newyorktimes.png)
+![screenshot](./assets/imges/newyorktimes.png)
 
 This project is a replica of the the The New York Times news page. It has currnet news with different supplimental docs like image, video. Has popular and related news sections.
 
@@ -29,7 +29,7 @@ To run the project smoothly, you must have the following installed on your machi
 - A web browser.
 
 ### Setup
-You need to clone the project by running `git clone https://github.com/berhanu-tarekegn/Intuit-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
+You need to clone the project by running `git clone https://github.com/berhanu-tarekegnThe-NYT-article-clone.git` You'd then navigate to the location to which you cloned the project and run the `index.html` file on your browser.
 
 ## Authors
 
