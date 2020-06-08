@@ -81,6 +81,11 @@
       justify-content: center;
   }
 
+  .item4 a {
+    display: flex;
+    justify-content: center;
+  }
+
   .item4 img {
       width: 20%;
   }
@@ -336,10 +341,11 @@
     font-size: 1em;
 }
 
-footer {
+.link-footer {
     padding-bottom: 32px;
     width: 80%;
     margin:auto;
+    margin-bottom: 64px;;
 }
 
 .brand {
@@ -357,3 +363,78 @@ footer {
 .author, .more-cat-item a:hover, .brand-item a:hover {
     text-decoration: underline;
 }
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 56px;
+    border-top: 1px solid black;
+    z-index: 99;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fixed-footer span a {
+    text-transform: uppercase;
+    justify-content: end;
+    padding-right: 12px;
+    color: #333;
+}
+
+.fixed-footer span {
+    flex: 1;
+    display: flex;
+    justify-content: start;
+    padding-left: 12px;
+    align-items: center;
+}
+
+.fixed-footer div {
+    flex: 5;
+    display: flex;
+    justify-content: center;
+}
+
+.ed-news-item img {
+    width: 150px;
+    height: 150px;
+}
+
+.two-sider {
+    margin-top: 100px;
+    margin-right: 5%;
+    margin-left: 20%;
+    justify-content: space-between;
+}
+
+.aside-item {
+    flex: 1;
+}
+
+.aside-item h3 {
+    border-bottom: 1px solid black;
+    margin-bottom: 12px;
+}
+
+.ed-news-item {
+    margin-top: 12px;
+}
+
+.aside-item p {
+    padding-left: 24px;
+    
+}
+
+.p-item {
+    flex: 2;
+    padding-left: 210px;
+    padding-right: 104px;
+    max-width: 60%;
+    font-size: 1.25rem;
+    line-height: 1.875rem;
+}
+
