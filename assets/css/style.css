@@ -6,8 +6,8 @@
   body {
       box-sizing: border-box;
       font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
-    line-height: 1.5em;
-      }
+      line-height: 1.5em;
+    }
 
   .nav {
       position: fixed;
@@ -164,10 +164,8 @@
 }
 
 .text-content {
-
     font-size: 1.25rem;
     line-height: 1.875rem;
-    
 }
 
 .author {
@@ -252,20 +250,23 @@
     margin-top: 24px;
 }
 
-.editor-pick, .related-articles {
+.editor-pick, 
+.related-articles {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 12px;
-
 }
 
-.popular-container, .related-item {
+.popular-container, 
+.related-item {
     border-top: 1px solid black;
     margin-top: 24px;
     padding-top: 24px;
 }
 
-.inflation-item, .pick-item, .rltd-item {
+.inflation-item, 
+.pick-item, 
+.rltd-item {
     float: left;
 }
 
@@ -273,7 +274,8 @@
     margin-left: 24px;  
 }
 
-.related-item h3, .popular-container h3 {
+.related-item h3, 
+.popular-container h3 {
     padding: 12px 0;
 }
 
@@ -316,7 +318,6 @@
     color: black;
     font-size: 0.8em;
     text-transform: capitalize;
-
 }
 
 .more-cat-item a {
@@ -343,8 +344,8 @@
 
 .link-footer {
     padding-bottom: 32px;
-    width : 80%;
-    margin : auto;
+    width: 80%;
+    margin: auto;
     margin-bottom: 64px;;
 }
 
@@ -426,7 +427,6 @@
 
 .aside-item p {
     padding-left: 24px;
-    
 }
 
 .p-item {
