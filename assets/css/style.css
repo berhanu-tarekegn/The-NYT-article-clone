@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: nyt-cheltenham, georgia, 'times new roman', times, serif;
+  line-height: 1.5em;
+}
+
+.nav {
+  position: fixed;
+  background: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  border-bottom: 1px solid #e2e2e2;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 50px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-item {
+  padding: 0 24px;
+  color: #333;
+  text-transform: capitalize;
+}
+
+.menu-item .item3 {
+  color: #333;
+  text-transform: uppercase;
+}
+
+.btn {
+  padding: 6px;
+  text-transform: capitalize;
+  letter-spacing: 0.01em;
+}
+
+.login {
+  color: #fff;
+  background: #333;
+  border-color: rgb(18, 18, 18);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  padding: 6px 12px;
+}
+
+.item5 a {
+  text-decoration: underline;
+  color: #333;
+}
+
+.row-flex-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.column-flex-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.item4 {
+  flex: 1;
+  justify-content: center;
+}
+
+.item4 a {
+  display: flex;
+  justify-content: center;
+}
+
+.item4 img {
+  width: 20%;
+}
+
+.main-content {
+  position: relative;
+  max-width: 60%;
+  margin: auto;
+  top: 72px;
+}
+
+.cosmos-title {
+  color: #121212;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.img-desc {
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #666;
+}
+
+.article-detail,
+.first-figure {
+  align-items: center;
+}
+
+.first-figure img {
+  padding-top: 24px;
+  width: 100%;
+}
+
+.first-figure p {
+  padding-top: 8px;
+}
+
+.first-figure,
+.second-figure,
+.fourth-figure img,
+.inflation-item img,
+.pick-item img,
+.rltd-item img {
+  max-width: 100%;
+}
+
+.more-article {
+  margin: auto;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 12px;
+}
+
+.author,
+.third-figure,
+.article-footer,
+.article-share,
+.text-content,
+.article-detail {
+  max-width: 80%;
+  padding: 12px 20%;
+}
+
+.article-share {
+  margin-bottom: 24px;
+}
+
+.article-footer {
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.article-footer a {
+  color: black;
+}
+
+.text-content {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.author {
+  display: inline;
+  color: #333;
+  font-size: 100%;
+}
+
+.article-detail {
+  justify-content: space-around;
+}
+
+.info1 {
+  flex: 15;
+}
+
+.ic {
+  flex: 1;
+}
+
+.ic i {
+  color: black;
+}
+
+.ic i:hover {
+  color: gray;
+}
+
+.ptitle {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.fourth-figure {
+  max-width: 90%;
+  padding: 12px 10%;
+}
+
+.inflation {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 5px;
+  padding-top: 12px;
+}
+
+.inflation-author,
+.pick-item img,
+.rltd-item img {
+  padding-top: 12px;
+}
+
+.sho {
+  flex: 1;
+}
+
+.share1 {
+  flex: 8;
+}
+
+.share1 button {
+  border-radius: 3px;
+  text-transform: uppercase;
+  border-style: none;
+  padding: 12px 24px;
+  background-color: rgb(86, 123, 149);
+  color: white;
+  border-width: 1px;
+  border-color: rgb(50, 104, 145);
+}
+
+.sho a {
+  color: #333;
+}
+
+.additional {
+  max-width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 24px;
+}
+
+.editor-pick,
+.related-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 12px;
+}
+
+.popular-container,
+.related-item {
+  border-top: 1px solid black;
+  margin-top: 24px;
+  padding-top: 24px;
+}
+
+.inflation-item,
+.pick-item,
+.rltd-item {
+  float: left;
+}
+
+.popular-container {
+  margin-left: 24px;
+}
+
+.related-item h3,
+.popular-container h3 {
+  padding: 12px 0;
+}
+
+.more-cat-item a {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  text-transform: capitalize;
+  width: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  height: 23px;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+.brand-item a {
+  padding-left: 24px;
+  font-size: 0.6em;
+  color: #666;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
+
+.popular-item {
+  min-height: 50px;
+  padding: 12px 0;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  border-top: 1px solid lightslategray;
+}
+
+.popular-item a {
+  text-decoration: none;
+  color: rgb(18, 18, 18);
+}
+
+.fixed-footer span a {
+  text-transform: uppercase;
+  justify-content: end;
+  padding-right: 12px;
+  color: #333;
+}
+
+.popular-item a:hover {
+  color: gray;
+}
+
+.more {
+  width: 80%;
+  margin: 24px auto;
+  background-color: #fff;
+  border-bottom: 1px solid #e2e2e2;
+  border-top: 2px solid #e2e2e2;
+}
+
+.more img {
+  padding: 12px;
+  width: 20%;
+}
+
+.more-cat-container {
+  justify-content: space-between;
+  padding: 12px 0;
+}
+
+.more-cat-item {
+  color: black;
+  font-size: 0.8em;
+  text-transform: capitalize;
+}
+
+.more-cat-item h4 {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 12px 0;
+  font-size: 1em;
+}
+
+.link-footer {
+  padding-bottom: 32px;
+  width: 80%;
+  margin: auto;
+  margin-bottom: 64px;
+}
+
+.brand {
+  justify-content: center;
+}
+
+.fixed-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 56px;
+  border-top: 1px solid black;
+  z-index: 99;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed-footer span {
+  flex: 1;
+  display: flex;
+  justify-content: start;
+  padding-left: 12px;
+  align-items: center;
+}
+
+.fixed-footer div {
+  flex: 5;
+  display: flex;
+  justify-content: center;
+}
+
+.ed-news-item img {
+  width: 150px;
+  height: 150px;
+}
+
+.two-sider {
+  margin-top: 100px;
+  margin-right: 5%;
+  margin-left: 20%;
+  justify-content: space-between;
+}
+
+.aside-item {
+  flex: 1;
+}
+
+.article-footer a:hover,
+.more-cat-item a:hover,
+a.author,
+.brand-item a:hover {
+  text-decoration: underline;
+}
+
+.author:hover {
+  text-decoration: none;
+}
+
+.aside-item h3 {
+  border-bottom: 1px solid black;
+  margin-bottom: 12px;
+}
+
+.ed-news-item {
+  margin-top: 12px;
+}
+
+.aside-item p {
+  padding-left: 24px;
+}
+
+.p-item {
+  flex: 2;
+  padding-left: 210px;
+  padding-right: 104px;
+  max-width: 60%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
